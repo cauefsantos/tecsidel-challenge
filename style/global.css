@@ -1,0 +1,28 @@
+* {
+    font-size: 20px;
+}
+
+.disabled-cursor {
+    cursor: not-allowed;
+}
+
+.operadoras {
+    margin-top: 2rem;
+}
+
+div .operadoras__accordion-body {
+    padding: 0%;
+}
+
+.subtitulo {
+    color: #212529;
+    text-transform: uppercase;
+}
+
+.status-ok {
+    color: #1A8625;
+}
+
+.status-fail {
+    color: #861A1A;
+}

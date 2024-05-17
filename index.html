@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Monitoramento</title>
+
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/global.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./images/logo.png" alt="" class="navbar-logo">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link disabled disabled-cursor" aria-disabled="true">Monitoramento</a>
+          </li>
+        </ul>
+
+        <div class="d-flex" role="search">
+          <button id="user-menu" class="user-btn">
+            <i class="bi-person user-icon"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container-fluid text-center">
+    <div class="operadoras col-4">
+      <h3 class="subtitulo">Operadoras</h3>
+
+      <div class="accordion" id="operadoras__accordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              CCR &emsp; <i class="status-ok bi-check-circle-fill"></i>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body operadoras__accordion-body list-group list-group-flush">
+              <button type="button" class="list-group-item list-group-item-action">
+                SP 280 - Rodovia Castello Branco &emsp; <i class="status-ok bi-check-circle-fill"></i>
+              </button>
+              <button type="button" class="list-group-item list-group-item-action">
+                SP 255 - Rodovia João Mellão &emsp; <i class="status-ok bi-check-circle-fill"></i>
+              </button>
+              <button type="button" class="list-group-item list-group-item-action">
+                SP 270 - Rodovia Raposo Tavares &emsp; <i class="status-ok bi-check-circle-fill"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Eco Rodovias &emsp; <i class="status-fail bi-x-circle-fill"></i>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body operadoras__accordion-body list-group list-group-flush">
+              <button type="button" class="list-group-item list-group-item-action">
+                BR-135 &emsp; <i class="status-fail bi-x-circle-fill"></i>
+              </button>
+              <button type="button" class="list-group-item list-group-item-action">
+                MG-231 &emsp; <i class="status-ok bi-check-circle-fill"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Tamoios &emsp; <i class="status-ok bi-check-circle-fill"></i>
+            </button>
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body operadoras__accordion-body list-group list-group-flush">
+              <button type="button" class="list-group-item list-group-item-action">
+                BR 116 - Via Dutra &emsp; <i class="status-ok bi-check-circle-fill"></i>
+              </button>
+              <button type="button" class="list-group-item list-group-item-action">
+                SP 70 - Rodovia Carvalho Pinto &emsp; <i class="status-ok bi-check-circle-fill"></i>
+              </button>
+              <button type="button" class="list-group-item list-group-item-action">
+                SP 55 / BR 101 - Rodovia Rio-Santos &emsp; <i class="status-ok bi-check-circle-fill"></i>
+              </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
