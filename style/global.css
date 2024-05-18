@@ -6,6 +6,14 @@
   margin-top: 2rem;
 }
 
+.bold-text {
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 div .operadoras__accordion-body {
   padding: 0%;
 }
