@@ -1,28 +1,34 @@
 * {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-.disabled-cursor {
-    cursor: not-allowed;
-}
-
-.operadoras {
-    margin-top: 2rem;
+.margin-top {
+  margin-top: 2rem;
 }
 
 div .operadoras__accordion-body {
-    padding: 0%;
+  padding: 0%;
 }
 
 .subtitulo {
-    color: #212529;
-    text-transform: uppercase;
+  color: #212529;
+  text-transform: uppercase;
 }
 
 .status-ok {
-    color: #1A8625;
+  color: #1A8625;
 }
 
 .status-fail {
-    color: #861A1A;
+  color: #861A1A;
+}
+
+.active-button.status-ok, .active-button:hover.status-ok, .active-button:active.status-ok, .active-button:focus.status-ok { 
+  background-color: #cfffd3;
+  color: #212529;
+}
+
+.active-button.status-fail, .active-button:hover.status-fail, .active-button:active.status-fail, .active-button:focus.status-fail { 
+  background-color: #ffcfcf;
+  color: #212529;
 }
